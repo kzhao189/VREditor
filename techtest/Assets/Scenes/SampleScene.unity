@@ -388,7 +388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &900541152
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -522,6 +522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootingPoint: {fileID: 1474019500}
   blockObject: {fileID: 1917440625744877997, guid: 136d10fef4fc26f48b6b27919900af07, type: 3}
+  previewBlockObject: {fileID: 738039898349236791, guid: 2a0490b19a0612349a745cc65fe13e6f, type: 3}
+  fractured: {fileID: 2634018359370098265, guid: 5c6d938e63be67543905a4ae574e92f6, type: 3}
+  breakForce: 1000
 --- !u!1 &1474019499
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootingPoint: {fileID: 383150958}
   blockObject: {fileID: 1917440625744877997, guid: 136d10fef4fc26f48b6b27919900af07, type: 3}
+  previewBlockObject: {fileID: 0}
+  fractured: {fileID: 0}
+  breakForce: 0
 --- !u!1 &2129639969
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,7 +749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &2129639970
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -895,7 +901,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.1835e-41, y: 7.43868e-39, z: 9.78048e-39, w: 1.37753e-40}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
