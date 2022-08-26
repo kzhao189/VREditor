@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Block
   - UI
+  - Toggleable
   layers:
   - Default
   - TransparentFX
